@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, sans-serif, monospace;
+
+  background-image: url("photos/BG.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 85%;
+  max-width: 700px;
+  padding: 36px 0; 
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 30px;
+  border: 1px solid rgba(225, 118, 186, 0.7);
+  text-align: center;
+  position: relative;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+  
+.card p {
+  color: #38588c;
+  line-height: 1.6;
+  font-size: 13px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.card .date,
+.blurb {
+  padding: 27px 0;
+} 
+  
+.card .opening {
+  font-weight: bold;
+}
+
+.card .desc {
+  
+}  
+
+.card .author {
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 3px;
+}  
+
+
+  /* for mobile */
+  
+@media (max-width: 431px) {
+
+  .card {
+    width: 92%;
+    max-width: 390px;
+    border-radius: 24px;
+  }
+
+  .card .date {
+    padding-bottom: 27;
+    padding-top: 0;
+  }
+
+  .card p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+  /* for ipad */
+  
+@media (min-width: 769px) and (max-width: 1025px) {
+
+  .card {
+    max-width: 900px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+}
+  
