@@ -66,6 +66,10 @@ body {
   margin-bottom: 3px;
 }  
 
+.closing {
+  padding-bottom: 27px;
+}
+
 
   /* for mobile */
   
@@ -75,11 +79,6 @@ body {
     width: 92%;
     max-width: 390px;
     border-radius: 24px;
-  }
-
-  .card .date {
-    padding-bottom: 27;
-    padding-top: 0;
   }
 
   .card p {
