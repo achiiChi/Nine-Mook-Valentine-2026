@@ -38,6 +38,25 @@ body {
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
+
+.card .toAddPhoto {
+  display: flex;
+}
+
+.card .textSection {
+  flex: 1;
+  text-align: left;
+}
+.card .giftPhoto {
+  flex: 1;
+  background-image: url("photos/CHANEL_CHANCE.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120px;
+  margin-right: 20px;
+}
   
 .card p {
   color: #38588c;
