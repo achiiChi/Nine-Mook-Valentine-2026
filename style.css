@@ -69,6 +69,7 @@ body {
   color: rgba(225, 118, 186, 0.7);
   font-style: italic;
   text-align: center;
+  margin-right: 3px;
 }
   
 .card p {
