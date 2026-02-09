@@ -47,6 +47,7 @@ body {
   flex: 1;
   text-align: left;
 }
+
 .card .giftPhoto {
   flex: 1;
   background-image: url("photos/CHANEL_CHANCE.png");
@@ -98,6 +99,11 @@ body {
     width: 92%;
     max-width: 390px;
     border-radius: 24px;
+  }
+
+  .card .giftPhoto {
+    height: 100px;
+    margin-right: 10px;
   }
 
   .card p {
