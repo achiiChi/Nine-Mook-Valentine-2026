@@ -1,147 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-body {
-  font-family: Arial, sans-serif, monospace;
+<body>
 
-  background-image: url("photos/BG.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    <div class="container">
+        <div class="card">
 
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+            <div class="toAddPhoto">
+                <div class="textSection">
+                    <p class="date">14/02/26</p>
+        
+                    <p class="opening">Dear K. Mook,</p>
+        
+                    <p class="blurb">First Year We Met</p>
+                </div>
+                <div class="gift">
+                    <div class="giftPhoto"></div>
+                    <div class="giftText">This's a gift for you</div>
+                </div>                
+            </div>
+            
+            <p class="desc">
+                สุขสันต์วันวาเลนไทน์นะคะ คุณมุก ❤️<br>
+                ขอบคุณที่ตลอดเวลาที่ผ่านมา คุณมุกเป็นคนที่คอยพานิสาไปเที่ยว พาไปกินของอร่อย ๆ ดูแลนิสาอย่างดีเสมอ ถึงนิสาจะเป็นคนดื้อ งอแงบ้าง เอาแต่ใจบ้าง 😆 แต่คุณมุกก็ยังอดทน รัก และอยู่ข้าง ๆ นิสามาตลอด
+            </p>
+            
+            <p class="desc">
+                ขอบคุณมาก ๆ สำหรับความรัก ความใส่ใจ และความอดทนที่มีให้กันมาตลอด 8 ปีแล้วนะ ไม่เคยคิดเลยว่าจะโชคดีขนาดนี้ที่มีคุณมุกอยู่ในชีวิต
+            </p>
+            
+            <p class="desc">
+                อยากบอกว่ารักคุณมุกมาก ๆ จริง ๆ และอยากให้คุณมุกดูแลตัวเองให้มากกว่านี้ เพราะสุขภาพของคุณมุกสำคัญกับนิสามาก อยากให้เราได้อยู่ดูแลกันไปนาน ๆ แบบนี้ทุกวันเลยนะ 🤍
+            </p>
+            
+            <p>
+                รักคุณมุกที่สุดนะคะ 💘
+            </p>
 
-.container {
-  min-height: 100vh;
-  min-height: 100svh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+            <p class="blurb">So Far, and Forever</p>
+            
+            <p class="author">Nisa</p>
 
-.card {
-  width: 85%;
-  max-width: 700px;
-  padding: 30px 0; 
-  background: rgba(255, 255, 255, 0.25);
-  border-radius: 30px;
-  border: 1px solid rgba(225, 118, 186, 0.7);
-  text-align: center;
-  position: relative;
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-}
+            <p class="closing">Yours,</p>
 
-.card .toAddPhoto {
-  display: flex;
-}
+        </div>
+          
+    </div>
+    
+</body>
 
-.card .textSection {
-  flex: 6;
-  text-align: left;
-}
-
-.card .gift {
-  flex: 4;
-  display: flex;
-  flex-direction: column;
-  margin-left: 200px;
-}
-
-.card .giftPhoto {
-  background-image: url("photos/CHANEL_CHANCE.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 120px;
-}
-
-.card .giftText {
-  font-size: 9px;
-  color: rgba(225, 118, 186, 0.7);
-  font-style: italic;
-  text-align: center;
-}
-  
-.card p {
-  color: #38588c;
-  line-height: 1.6;
-  font-size: 13px;
-  margin: 0 20px;
-  text-align: left;
-}
-
-.card .date,
-.blurb {
-  padding: 17px 0;
-} 
-  
-.card .opening {
-  font-weight: bold;
-}
-
-.card .desc {
-  padding-bottom: 12px;
-}  
-
-.card .author {
-  font-weight: 600;
-  font-style: italic;
-  margin-bottom: 3px;
-}  
-
-.closing {
-  padding-bottom: 17px;
-}
-
-
-  /* for mobile */
-  
-@media (max-width: 431px) {
-
-  .card {
-    width: 92%;
-    max-width: 390px;
-    border-radius: 24px;
-  }
-
-  .card .gift {
-    margin: 0 10px;
-  }
-
-  .card .giftPhoto {
-    height: 100px;
-    margin-right: 10px;
-  }
-
-  .card .giftText {
-  font-size: 8px;
-  }
-
-  .card p {
-    font-size: 13px;
-    line-height: 1.5;
-  }
-}
-
-  /* for ipad */
-  
-@media (min-width: 769px) and (max-width: 1025px) {
-
-  .card {
-    max-width: 900px;
-  }
-
-  .card p {
-    font-size: 15px;
-  }
-}
-  
+</html>
