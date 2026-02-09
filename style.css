@@ -57,7 +57,7 @@ body {
 }
 
 .card .desc {
-  padding-bottom: 8px;
+  padding-bottom: 12px;
 }  
 
 .card .author {
@@ -100,3 +100,4 @@ body {
   }
 }
   
+
